@@ -1,0 +1,225 @@
+
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0%;
+  }
+  
+ 
+.nav-link{
+  /* background-color: rgb(240, 214, 214); */
+  color:black;
+  padding: 8px 25px !important;
+  text-align: center;
+  margin: 10px;
+  /* border: 1px solid green; */
+  border-radius: 7px;
+  
+}
+.nav-link:hover{
+  background-color: rgb(247, 90, 90);
+  color: white;
+}
+
+.pic img{
+  height: 250px;
+  width: 100%;
+}
+
+.service-card {
+  transition: all 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.service-card {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp{
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+.abovefooter{
+background: #e4d2c7;
+padding: 70px 0;
+text-align: center;
+}
+
+footer{
+background-color:#efeae6;
+color: black;
+padding: 25px 0;
+text-align: center;
+}
+
+/* Modal Background */
+.modal-content {
+  background-color: #f8f1ea; /* soft beige */
+  color: #3a2f2f; /* dark brown text */
+  border-radius: 15px;
+}
+
+/* Modal Title */
+.modal-title {
+  font-weight: 700;
+}
+
+/* Form Labels */
+.modal-body label {
+  color: #3a2f2f;
+  font-weight: 600;
+}
+
+/* Form Inputs */
+.modal-body .form-control,
+.modal-body .form-select {
+  background-color: #ffffff;
+  color: #3a2f2f;
+  border-radius: 8px;
+  border: 1px solid #d6c9be;
+}
+
+/* Input Focus */
+.modal-body .form-control:focus,
+.modal-body .form-select:focus {
+  border-color: #b08a6a;
+  box-shadow: 0 0 0 0.15rem rgba(176, 138, 106, 0.25);
+}
+
+/* Placeholder Text */
+.modal-body ::placeholder {
+  color: #9b8f86;
+}
+
+/* Modal Footer Buttons */
+.modal-footer .btn-dark {
+  background-color: #3a2f2f;
+  border: none;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #b08a6a;
+  border: none;
+  color: #fff;
+}
+
+.car img{
+  height: 400px;
+  object-fit: cover;
+
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #f8f1ea;
+}
+
+.social-icon {
+  color: rgb(199, 228, 13);
+  font-size: 20px;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #f8f1ea; /* crochet theme color */
+}
+
+
+/* -----------------------------choose this product-------------------------------------- */
+
+.why-item {
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.why-item img{
+  width: 200px;
+  height: 150px;
+  /* object-fit: contain; */
+  margin-bottom: 15px;
+  transition: transform 0.4s ease;
+  border-radius: 10px;
+  margin-top: 20px;
+ 
+}
+
+.why-item h6 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.why-item:hover img {
+  transform: scale(1.08) translateY(-4px);
+transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.colors img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+
+}
+
+
+
+/* ----------------------------------------------------------------------- */
+
+.card-img-wrapper {
+  overflow: hidden;  
+ 
+}
+
+.card-img-wrapper img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  height: 300px;
+}
+
+.card-img-wrapper:hover img {
+  transform: scale(1.10);
+  overflow: hidden; 
+  transition: transform 0.4s ease;   
+}
+
+.card:hover{
+background-color:#e4d2c7;
+/* color: whitesmoke; */
+}
+
+/* -------------Reviews-------------------------- */
+.reviewimg img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ------------------------------------------------------------ */
+
+.row box :hover{
+  background-color: aqua;
+}
+.fa-facebook-f{
+  color: blue;
+  
+}
+.fa-instagram{
+  color: palevioletred;
+}
